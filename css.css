@@ -1,0 +1,245 @@
+.container-fluid{display: flex;
+background-color: #FFFF;}
+.main container{display: flex;
+flex-wrap: nowrap;justify-content: space-between;
+}
+.list-group-item{color: darkblue;
+size: 25px;}
+.list-group list-group-flush{text-decoration: none;}
+img{width: 360px ;
+height: 400px ;
+}
+
+#nip{width: 150px;
+height: 20%;
+}
+
+
+
+
+
+.hyu{position: absolute;
+text-align: center;
+color: rgb(4, 1, 22);
+left: 35%;
+top: 10%;
+text-size-adjust: 50px;
+}
+nav{width: 100%;
+height: max-content;
+
+
+box-shadow: rgb(248, 245, 245) 2px 2px;}
+.container-fluid{display: flex;
+justify-content: space-around;}
+.nidas{left:80%}
+.collapse navbar-collapse{display: flex;}
+#im{
+    position:absolute;
+    margin-top: 10%;
+}
+#om{position:absolute;
+    margin-top: 30%;}
+    #bm{position:absolute;
+        margin-top: 50%;}
+        #nm{position:absolute;
+            margin-top: 70%;}
+#al{position:absolute;
+    margin-top: 10%;
+left: 30% ;}
+    #bl{position:absolute;
+        margin-top: 30%;
+        left: 30% ;}
+        #cl{position:absolute;
+            margin-top: 50%;
+            left: 30% ;}
+            #dl{position:absolute;
+                margin-top: 70%;
+                left: 30% ;}
+    #ga{position:absolute;
+        margin-top: 75%;
+        left: 35% ;
+    }
+    #gb{position:absolute;
+        margin-top: 55%;
+        left: 35% ;}
+        #gc{position:absolute;
+            margin-top: 35%;
+            left: 35% ;}
+            #gd{position:absolute;
+                margin-top: 15%;
+            left: 35% ;}
+        nav{display: inline-block;}
+        .collapse navbar-collapse{display: flex;
+        justify-content: space-around;
+    color: rgb(156, 136, 136);
+box-shadow: gray 10px 10px;
+height: 30px;
+}
+#nibouti{height: 50px;
+width: 50px;
+}
+.kip{display: flex;
+
+}
+#navbarNav{display: grid;
+text-decoration: none; text-align:center ;
+justify-content: flex-end;}
+#nb{position:absolute;color: #FFFF;
+top: 30%;
+padding-left:9px ;
+font-family: 'Dancing';
+animation:slide 3s;
+}
+.phase{background-color: black;
+width: 100%;
+height: 50%;}
+#phese{width: 70%;
+height: 100%;
+width: 100%;
+right: 10px;
+top: 400PX;}
+#bon{
+    font-family: 'Dancing';   
+ padding-left:9px ;   
+    position:absolute;color: #FFFF;
+top: 35%;animation:slide 3s;}
+@keyframes slide {
+    from{
+        margin-left:100%;
+    }
+    to{
+        margin-left:2%
+    }
+}
+.mainGrid{
+    display: grid;
+    grid-template-columns:25% 25% 25% 25%  ;
+    grid-row-gap: 10px;
+}
+@font-face {
+    font-family: 'Dancing';
+    src: url('./DancingScript-VariableFont_wght.ttf');
+}
+.khg{text-align: center;}
+ #jok{display: flex;
+justify-content: space-around;
+background-color: rgb(245, 229, 229);
+border-radius: 3%;}
+.lop{border-radius: 2%;}
+#op{text-align: center;
+color:rgb(26, 86, 141) ;
+top: 70%;}
+p{font-size: 20px;
+color:black}
+#em{color:rgb(26, 86, 141) ;}
+
+#bol{color: rgb(255, 0, 149);
+font-family:Verdana, Geneva, Tahoma, sans-serif;}
+#formSection{
+    width: 40%;
+}
+#pm{width: 40%;
+height: 65%;
+box-shadow: rgba(177, 176, 176, 0.425) 9px 9px;
+text-align: center;
+left: 50px;
+border-radius: 5px;
+top:400px;}
+
+#cx{width: 40%;
+height: 45%;}
+.nv{
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+justify-content: space-evenly;}
+#nji{text-align: center;}
+#vg{text-align: center;}
+#ML{display: flex;
+justify-content: space-around;
+width: 100%;
+height: 600px;}
+
+body {
+    height: 125vh;
+    
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top: 80px;
+    padding: 30px;
+}
+
+main {
+    color: white;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: max-content;
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 1;
+}
+
+header ul li {
+    display: inline;
+}
+
+header li {
+    margin: 20px;
+}
+#navbar{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+header li a {
+    color: black;
+    text-decoration: none;
+}
+header li a:hover {
+    color: rgb(128, 122, 122);
+    text-decoration: none;
+}
+#hy{width: 60px;
+    height: 60px;
+}
+#nj{width: 60px;
+    height: 60px;}
+#lo{width: 60px;
+    height: 60px;}
+    .mainer{display: flex;
+    justify-content: space-evenly;}
+    .pr{color: rgba(119, 112, 112, 0.603);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+font-size: 25px;}
+#ap{width: 150px;
+height: 150px;}
+#fh{
+    text-align: center;
+    
+    margin-top: 9%;}
+  
+#ov{width: 500px;
+height: 500px;}
+.contact{
+    width: 100%;
+    position: relative;
+    left:25%;
+    margin-bottom: 15px;
+}
+#qs{margin-right: 1050px;
+    border-radius: 25px;
+    
+    background-color: rgba(181, 162, 197, 0.575);
+    height: 200px;
+    width:50% ;
+}
+.card img{
+    height: 300px;
+}
