@@ -89,7 +89,7 @@ justify-content: flex-end;}
 top: 30%;
 padding-left:9px ;
 font-family: 'Dancing';
-animation:slide 3s;
+animation:slide 1s;
 }
 .phase{background-color: black;
 width: 100%;
@@ -243,3 +243,17 @@ height: 500px;}
 .card img{
     height: 300px;
 }
+#icons{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    position: absolute;
+    top:50%;
+}
+#icons svg{
+   cursor: pointer;
+}
+#xw{color: rgb(158, 148, 148);
+font-size: 17px;}
+

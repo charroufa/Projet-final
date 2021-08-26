@@ -19,7 +19,7 @@
                 <ul>
                     <li><a href="main page.html">Menu</a></li>
                     <li><a href="html femmes.html">Femmes</a></li>
-                    <li><a href="Html enfants.html"><b>Enfants</b></a></li>
+                    <li><a href="Html enfants.html">Enfants</a></li>
                     <li><a href="A popos de nous.html">A propos de nous</a></li>
                     
                 </ul>
@@ -32,6 +32,13 @@
                        
 
                       <img id="phese"src="https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/frFR/Images/DesktopHeader_tcm196-476324.jpg">
+                      <div id="icons">
+                      <svg id="bn" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-caret-left-square-fill" viewBox="0 0 16 16">
+                        <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm10.5 10V4a.5.5 0 0 0-.832-.374l-4.5 4a.5.5 0 0 0 0 .748l4.5 4A.5.5 0 0 0 10.5 12z"/>
+                      </svg><svg id="next" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-caret-right-square-fill" viewBox="0 0 16 16">
+                        <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm5.5 10a.5.5 0 0 0 .832.374l4.5-4a.5.5 0 0 0 0-.748l-4.5-4A.5.5 0 0 0 5.5 4v8z"/>
+                      </svg>
+                    </div>                       
               </div>
              
               <div>
@@ -57,23 +64,23 @@
                   <div class="nv">
                   <img id="pm" src="https://www.echantillonsclub.com/wp-content/uploads/2020/06/cadeaux_jeu_atlas_for_men_3.jpg">
                   <div id="formSection">
-                    <form class="row g-3 needs-validation" novalidate>
+                    <form class="row g-3 needs-validation" novalidate id="gameForm">
                       <div class="col-md-4">
-                        <label for="validationCustom01" class="form-label">Prenom</label>
-                        <input type="text" class="form-control" id="validationCustom01" value="Mark" required>
-                        <div class="valid-feedback">
+                        <label for="validationCustom01" class="form-label">*Prenom</label>
+                        <input type="text" class="form-control" id="validationCustom01"  required>
+                        <div class="invalid-feedback">
                           Looks good!
                         </div>
                       </div>
                       <div class="col-md-4">
-                        <label for="validationCustom02" class="form-label">Nom</label>
-                        <input type="text" class="form-control" id="validationCustom02" value="Otto" required>
-                        <div class="valid-feedback">
+                        <label for="validationCustom02" class="form-label">*Nom</label>
+                        <input type="text" class="form-control" id="validationCustom02"  required>
+                        <div class="invalid-feedback">
                           Looks good!
                         </div>
                       </div>
                       <div class="col-md-4">
-                        <label for="validationCustomUsername" class="form-label">E-mail</label>
+                        <label for="validationCustomUsername" class="form-label">*E-mail</label>
                         <div class="input-group has-validation">
                           <span class="input-group-text" id="inputGroupPrepend">@</span>
                           <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
@@ -83,14 +90,15 @@
                         </div>
                       </div>
                       <div class="col-md-6">
-                        <label for="validationCustom03" class="form-label">Cité</label>
+                        <label for="validationCustom03" class="form-label">*Cité</label>
                         <input type="text" class="form-control" id="validationCustom03" required>
                         <div class="invalid-feedback">
                           Please provide a valid city.
                         </div>
                       </div>
                       <div class="col-md-3">
-                        <label for="validationCustom04" class="form-label">Region</label>
+                        
+                        <label for="validationCustom04" class="form-label">*Region</label>
                         <select class="form-select" id="validationCustom04" required>
                           <option selected disabled value="">Choose...</option>
                           <option value="Alsace">Alsace</option>
@@ -122,7 +130,7 @@
                       </div>
                       <div class="col-md-3">
                         <label for="validationCustom05" class="form-label">Code postal</label>
-                        <input type="text" class="form-control" id="validationCustom05" required>
+                        <input type="text" class="form-control" id="validationCustom05" >
                         <div class="invalid-feedback">
                           Please provide a valid zip.
                         </div>
@@ -133,11 +141,12 @@
                           <label class="form-check-label" for="invalidCheck">
                             Agree to terms and conditions
                           </label>
-                          <div class="invalid-feedback">
+                          <div class="invalid-feedback" >
                             You must agree before submitting.
                           </div>
                         </div>
                       </div>
+                      <p id="xw">*Ce champ est  obligatoire</p>
                       <div class="col-12">
                         <button class="btn btn-primary" type="submit">Postuler</button>
                       </div>
@@ -164,5 +173,52 @@
                     <p>www.Nidas.com ? 2021</p>
                   </div>
                 </footer>
+                <script defer>
+                  var next=document.getElementById("next")
+                  var perv=document.getElementById("bn")
+                  var slide=document.getElementById("phese")
+                  var i=0;
+                  var slides=['https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/frFR/Images/DesktopHeader_tcm196-476324.jpg','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNOtGleB5Trh5lZAA3I5UTmpBFeezyz09_HQ&usqp=CAU','https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4hKZBgCGG3bWe_qHObSyrB7uAtlxVbl_7Xw&usqp=CAU']
+                  next.addEventListener("click",(e)=>{
+                    if(i==slides.length-1){
+                      i=-1
+                    }
+                    console.log(slides[i])
+                    i++
+                    slide.setAttribute('src',slides[i])
+                  })
+                 
+                  
+                  
+                  perv.addEventListener("click",(e)=>{
+                    
+                    
+                    i--
+                    if(i<0){
+                      i=slides.length-1
+    
+                    }
+                    slide.setAttribute('src',slides[i])
+                  })
+                </script>
+                <script>
+                  var GameForm=document.getElementById("gameForm")
+               
+                  var feedbacks=document.getElementsByClassName("invalid-feedback")
+
+                  GameForm.addEventListener("submit",(e)=>{
+                    e.preventDefault()
+                   var inputs=document.getElementsByClassName('form-control')
+                   console.log(inputs)
+                   for(let i=0;i<inputs.length;i++){
+                     if(inputs[i].value==''){
+                       
+                      feedbacks[i].setAttribute('style','display:block;')
+                     }else{
+                      feedbacks[i].removeAttribute('style')
+                     }
+                   }
+                  })
+                </script>
         </body>
 </html>
